@@ -24,8 +24,16 @@ git clone git@github.com:kayvank/www-q2io.git
 To build and publish the docker image make sure the following environment variables are set
 
 ```
-export DOCKER_USER=*******
-export DOCKER_PASS=*******
+##
+## Project required environment variables
+##
+
+## required for docker
+export DOCKER_USER=******
+export DOCKER_PASS=******
+
+## required for local build
+export CIRCLE_JOB='www-q2io' ## this is the project name
 export CIRCLE_BUILD_NUM=dev-build-`date +%s`
 ```
 
