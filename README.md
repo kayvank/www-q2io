@@ -1,6 +1,6 @@
 www-q2io
 ==============
-A in progress framework for publishing Website as an [nginx](https://www.nginx.com/) [docker ](https://www.docker.com) image <br>
+An in progress framework for publishing Website as an [nginx](https://www.nginx.com/) [docker ](https://www.docker.com) image <br>
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
@@ -17,9 +17,11 @@ npm install -g gulp
 git clone git@github.com:kayvank/www-q2io.git
 make
 ```
-
-
-
-
+### Deploymnet
+ ```
+docker run -p80:80 kayvank/www-q2io:lates
+```
+## License
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details
 
  
