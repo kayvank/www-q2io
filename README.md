@@ -6,12 +6,12 @@ A website publishing CI/CD solution.
 This projects wraps [nginx](https://www.nginx.com/) configurations, website related code in a [docker ](https://www.docker.com) image.  The docker image by be run from any platform supporting docker.<br>
 
 ## Getting Started
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
 
 ### Prerequisites
 Make sure you have the following installed:
 - [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-- [gnue make](https://www.gnu.org/software/make/)
+- [gnu make](https://www.gnu.org/software/make/)
 - [direnv](https://direnv.net/)
 
 ### Installing

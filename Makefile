@@ -1,8 +1,7 @@
 VERSION=1.0
-APP_NAME=www-q2io
+APP_NAME=$(CIRCLE_JOB)
 IMAGE=$(DOCKER_USER)/$(APP_NAME)
 TAG=$(VERSION)-$(CIRCLE_BUILD_NUM)
-
 GULP=node_modules/.bin/gulp
 
 login:
@@ -27,5 +26,7 @@ tag_image: build_image
 publish: tag_image
 	docker push $(IMAGE):$(TAG)
 	docker push $(IMAGE):latest
+
 build: publish
+
 .DEFAULT_GOAL :=publish
