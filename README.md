@@ -3,7 +3,7 @@ www-q2io
 A website publishing CI/CD solution.
 
 ## Description
-This projects wraps [nginx](https://www.nginx.com/) configurations, website related code in a [docker ](https://www.docker.com) image.  The docker image by be run from any platform supporting docker.<br>
+This projects wraps [nginx](https://www.nginx.com/) configurations, website related code in a [docker ](https://www.docker.com) image.  The docker image may be run from any platform supporting docker.<br>
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
